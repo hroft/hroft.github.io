@@ -1,0 +1,57 @@
+.scroll-menu__list {
+    list-style: none;
+    text-align: left;
+    /*padding: 11px 0 0;*/
+}
+
+.scroll-menu__element {
+    position: relative;
+}
+.scroll-menu__element > a {
+    padding: 11px 21px 14px;
+    display: block;
+}
+
+.scroll-menu__element ul {
+    list-style: none;
+    display: none;
+    position: absolute;
+    left: 100%;
+    background: #F2F2F2;
+    top: 0;
+    width: 278px;
+    box-sizing: border-box;
+}
+
+.scroll-menu__element:hover {
+    background: #E6E6E6;
+}
+
+.scroll-menu__element:hover > ul {
+    display: block;
+}
+
+.scroll-menu__element ul li a {
+    padding: 10px 14px;
+    display: inline-block;
+}
+
+.scroll-menu__element ul li:hover {
+    background: #E6E6E6;
+}
+
+.scroll-menu__element a {
+    color: #4C4C4C;
+    font-size: 13px;
+    text-decoration: none;
+}
+.scroll-menu__element a.root-item {
+    background-image: url(/bitrix/templates/.default/components/bitrix/menu/template1/images/arrow.gif);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 19px 12px;
+}
+
+.item-bu__subtitle {
+    padding: 0 10px;
+}
