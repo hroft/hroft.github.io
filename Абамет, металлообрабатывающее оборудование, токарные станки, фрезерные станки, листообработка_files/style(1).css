@@ -1,0 +1,37 @@
+/*!*div.catalog-popup-form-darker {background-color: rgba(0, 0, 0, 0.7); height: 101%; left: 0; position: fixed; top: 0; width: 100%; z-index: 999; display: none;}*!*/
+/*div.catalog-popup-form {background-color: #fff; border-radius: 10px; font-size: 130%; left: 50%; margin-left: -300px; padding: 20px; position: absolute; top: 100px; width: 600px; z-index: 999; display: none;}*/
+/*div.catalog-popup-form div.catalog-popup-form-close {background:url("/js/fb2/fancybox_sprite.png"); height: 36px; width: 36px; position: absolute; z-index: 220; top: 10px; right: 10px; cursor: pointer;}*/
+/*div.catalog-popup-form p.title {border-bottom: 1px dotted #000; font-size: 140% !important; margin-bottom: 20px; padding-bottom: 10px; font-weight: bold; font-style: normal;}*/
+/*div.catalog-popup-form div.catalog-popup-form-errors {color: red;}*/
+/*div.catalog-popup-form div.catalog-popup-form-success {color: green;}*/
+/*div.catalog-popup-form .req-empty {border: 1px solid red;}*/
+/*div.catalog-popup-form form {}*/
+/*div.catalog-popup-form label {display: block; margin: 5px 0; padding: 5px 0; width: 100%;}*/
+/*div.catalog-popup-form label span {display: block; float: left; margin: 5px 0; width: 250px;}*/
+/*div.catalog-popup-form span.req-star {display: inline; float: none; margin: 0; width: inherit; color: red;}*/
+/*div.catalog-popup-form input[type="text"] {margin: 5px 0; padding: 5px; width: 300px;}*/
+/*div.catalog-popup-form select {*/
+    /*margin: 5px 0;*/
+    /*padding: 5px;*/
+    /*width: 300px;*/
+    /*box-sizing: initial;*/
+/*}*/
+/*div.catalog-popup-form textarea {height: 150px; margin: 5px 0; padding: 5px; width: 300px;}*/
+/*div.catalog-popup-form input[type="submit"] {*/
+    /*height: 40px;*/
+    /*display: block;*/
+    /*margin: 0 auto 30px;*/
+    /*border-radius: 10px;*/
+    /*background: #d11e37;*/
+    /*text-align: center;*/
+    /*line-height: 40px;*/
+    /*color: #fff;*/
+    /*font-size: 16px;*/
+    /*text-decoration: none;*/
+    /*border: none;*/
+    /*width: 245px;*/
+    /*cursor: pointer;*/
+/*}*/
+/*div.catalog-popup-form input[type="submit"]:hover {opacity: 0.8;}*/
+/*div.catalog-popup-form p {font-size: 100%; font-style: italic;}*/
+/*div.catalog-popup-form p.req-info {font-size: 80%;}*/

@@ -1,0 +1,177 @@
+div.inline, div.stanki-used {display:inline-block;}
+div.stanki-used {
+	width:300px;
+	margin:4px;
+	text-align:center;
+	border:2px solid #F1F1F1;
+	padding:5px;
+	vertical-align:top;
+}
+div.stanki-used:hover {border:2px #BD272B solid;}
+div.stanki-used img {
+	margin:5px 0;
+	max-width:200px;
+	height:auto;}
+.padding10 {padding:10px;}
+.max-width450 {max-width:450px;}
+.max-width500 {max-width:500px;}
+.max-width-video {max-width:640px;}
+div.bu-stanki {
+		width:450px;
+		display:inline-block;
+		margin:5px 15px;
+		border:1px solid gray;
+		padding:5px;
+		vertical-align:top;}
+div.bu-stanki:hover {border:1px solid red;}
+div.bu-stanki img {max-width:200px;height:auto;float:right;margin:5px;}
+div.table-adaptive {overflow:auto;}
+table.td-center td {text-align:center;}
+table.td-center td.left {text-align:left;}
+div.col-45 {width:45%;}
+.video-adaptive{
+      position:relative;
+      padding-bottom:56.25%;
+      padding-top:30px;
+      height:0;
+      overflow:hidden;
+    }
+.video-adaptive iframe,.video-adaptive object, .video-adaptive embed{
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    }
+
+@media screen and (min-width:768px) {
+	div.kav-col-2, div.kav-col-3, .kav-col-2-3 {margin-left:5px;margin-right:5px;}
+	div.kav-col-2 {width:calc(50% - 15px);}
+	div.kav-col-2-3 {width:calc(66% - 15px);}
+	div.kav-col-3 {width:calc(33% - 15px);}
+	.button, .button2 {
+		background: #E63245;
+		border-radius: 12px;
+		color: #fff  !important;
+		font: 13px/23px Arial,Helvetica,sans-serif;
+		height: 23px;
+		text-align: center;
+		text-decoration: none;
+		font-weight:bold;
+	}
+	.button {
+		padding: 0 10px;
+		text-transform: uppercase;
+	}
+	.button2 {
+		padding: 8px 20px !important;
+		border:2px solid white;
+	}
+	.button2:hover {border:2px solid #E63245;}
+}
+@media screen and (max-width:767px) {
+	div.kav-col-2, div.kav-col-3 {width:100%;} 
+	.button, .button2 {
+		font: 16px/29px Arial,Helvetica,sans-serif;
+		height: 23px;
+		text-align: center;
+		font-weight:bold;
+		}
+}
+
+@media screen and (min-width:800px) {
+	div.full-width-300 {width:calc(100% - 330px);}
+	div.full-width-400 {width:calc(100% - 430px);}
+	div.full-width-300, div.full-width-400 {padding-right:10px;}
+	}
+div.width300 {width:300px;}
+div.width400 {width:400px;}
+
+img {
+	max-width:100%;
+	width:auto;
+	height:auto;
+	}
+div.border-hover div {border:1px solid white;}
+div.border-hover div:hover {border:1px solid red;}
+@media screen and (min-width:767px) {
+	div.img-right {
+		float:right;
+		margin:0 0 0 5px;
+		}
+	div.img-left {
+		float:left;
+		margin:0 5px 0 0;
+		}
+}
+@media screen and (min-width:400px) {
+	div.img-right-400 {
+		float:right;
+		margin:0 0 5px 5px;
+		}
+	div.img-left-400 {
+		float:left;
+		margin:0 5px 5px 0;
+		}
+}
+
+.margin-10-auto {margin:10px auto;}
+.line-through {text-decoration:line-through;}
+@media screen and (min-width:800px) {
+	.max-width-400 {max-width:400px;}
+	.max-width300, .max-width-300 {max-width:300px;}
+	}
+	
+	div.kav4shop {
+		margin:10px 5px;
+		border:1px solid #dcdcdc;
+		width:230px;
+		text-align:center;
+		}
+	div.kav4shop img {
+		max-height:150px;
+		}
+	div.kav4shop:hover {
+		border:1px solid red;
+		}
+	div.kav4shop div.img__wrap {
+		height:150px;
+		}
+	div.abamet-shop {
+		width:100%;
+		padding:10px;
+		color:white;
+		font-weight:400;
+		font-family:"Roboto", sans-serif;
+		background-color:rgb(71, 77, 84);
+		cursor:pointer;
+		line-height:1.333;
+		text-align:center;
+		font-size:18px;
+		text-align:center;
+		min-height:66px;
+		display:flex;
+	}
+	div.abamet-shop div { margin:auto; }
+.likeurl {
+	cursor:pointer;
+	text-decoration:none;
+	color:#BD272B;
+}
+.margin-0-auto {margin:0 auto;}
+.margin-top-10 {margin-top:10px;}
+.middle {vertical-align:middle;}
+table.td-top td { vertical-align:top !important; }
+.ico-vk::before {
+	width:3.33em;
+	height:3em;
+	background-image:url("/bitrix/templates/Abamet_center/images/vk.png");
+}
+hr {color:#dedede;}
+table.td-border td, img.border {border:1px double #eaeaea;}
+kbd {
+	font-weight:bold;
+	font-size:125%;
+	color:#666;
+	}
+.img-border img {border:1px solid #cecece;}

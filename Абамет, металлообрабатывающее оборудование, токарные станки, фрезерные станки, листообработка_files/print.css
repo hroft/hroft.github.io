@@ -1,0 +1,69 @@
+.left-col,
+#nav,
+#menu-new,
+h2,
+.tovars,
+#footer,
+#jivo_css_detector,
+#jivo_top_wrap,
+#navigation,
+#mountain-nad,
+#contacts p,
+#menu_backgr,
+#header_menu,
+.tovar-button,
+.tovar-info-links,
+.mini-photo
+{
+display:none;
+}
+#contacts p.bold {
+	display:block;
+
+}
+#container-tab {
+border-bottom:none;
+}
+#wrapper {
+	margin-top:0;
+}
+#contactsMain  {
+		right:200px;
+}
+.tabs-title {
+	display:none;
+
+}
+/*
+.tabs-title a {
+    -moz-border-bottom-colors: none!important;
+    -moz-border-left-colors: none!important;
+    -moz-border-right-colors: none!important;
+    -moz-border-top-colors: none!important;
+    border-color: #dcdcdc #dcdcdc #fff!important;
+    border-image: none!important;
+    border-style: solid!important;
+    border-width: 1px!important;
+    color: #2f2f2f!important;
+    text-decoration: none!important;
+}
+*/
+.tabs-content .tab {
+	display:block!important;
+}
+#tab4 {
+	display:none!important;
+}
+.tovar-price,
+.tovar-price .price
+  {
+	font-size:36px!important;
+	line-height:50px!important;
+	width:500px!important;
+}
+.tovar-price strong {
+	display:block;
+}
+body {
+	width:1000px!important;
+}

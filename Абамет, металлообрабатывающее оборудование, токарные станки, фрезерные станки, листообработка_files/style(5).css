@@ -1,0 +1,16 @@
+.footer__menu ul {
+    float: left;
+    margin-left: 18px;
+}
+.footer__menu-elem {
+    margin: 0 0 10px 10px;
+    list-style: none;
+}
+.footer__menu-link {
+    font-size: 13px;
+    color: #4C4C4C;
+    text-decoration: none;
+}
+.footer__menu-link:hover {
+    text-decoration: underline;
+}
